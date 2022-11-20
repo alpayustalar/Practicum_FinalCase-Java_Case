@@ -8,10 +8,12 @@ public class Store {
     public void run() {
         while (true) {
             System.out.println("PatikaStore Ürün Yönetim Paneli !");
-            System.out.println(" 1 - Notebook İşlemleri\n" +
-                    " 2 - Cep Telefonu İşlemleri\n" +
-                    " 3 - Marka Listele\n" +
-                    " 4 - Çıkış Yap");
+            System.out.println("""
+                    1 - Notebook İşlemleri
+                    2 - Cep Telefonu İşlemleri
+                    3 - Marka Listele
+                    4 - Çıkış Yap""".indent(1));
+
             System.out.print("Yapmak istediğiniz işlem numarasını seçiniz : ");
 
             switch (scanner.nextInt()) {

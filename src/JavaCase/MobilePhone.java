@@ -50,7 +50,7 @@ public class MobilePhone extends Product {
         int discountRate = scanner.nextInt();
         System.out.print("Ürünün stoğu : ");
         int amount = scanner.nextInt();
-        System.out.print("Ürünün rami : ");
+        System.out.print("Ram(GB) : ");
         int ram = scanner.nextInt();
         System.out.print("Ürünün ekranı : ");
         double screenSize = scanner.nextDouble();

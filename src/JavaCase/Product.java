@@ -6,7 +6,6 @@ public abstract class Product {
     static HashSet<Brand> brands = new HashSet<>();
     protected Scanner scanner = new Scanner(System.in);
     private int id;
-    //private static int pId=0;
     private String name;
     private double price;
     private int discountRate;
@@ -24,8 +23,7 @@ public abstract class Product {
 
     public abstract void deleteItem();
 
-    public Product(int id, String name, double price, int discountRate, int amount,
-                   Brand brand, double screenSize, int ram, int memory) {
+    public Product(int id, String name, double price, int discountRate, int amount, Brand brand, double screenSize, int ram, int memory) {
         this.id = id;
         this.name = name;
         this.price = price;

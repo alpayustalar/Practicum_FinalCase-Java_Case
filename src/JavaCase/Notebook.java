@@ -6,7 +6,6 @@ public class Notebook extends Product {
     private static int nId = 1;
     private static final ArrayList<Notebook> notebooks = new ArrayList<>();
 
-
     public Notebook(String name, double price, int discountRate, int amount, Brand brand, double screenSize, int ram, int memory) {
 
         super(nId, name, price, discountRate, amount, brand, screenSize, ram, memory);
@@ -14,12 +13,10 @@ public class Notebook extends Product {
     }
 
     public Notebook() {
-
     }
 
     @Override
     public void menu() {
-
         System.out.println("""
                 1- Yeni Notebook ekle
                 2- Notebook listesini görüntüle
@@ -33,7 +30,6 @@ public class Notebook extends Product {
         if (value == 2 || value == 4) getProducts();
         if (value == 3) deleteItem();
         if (value == 5) brandFilter();
-
     }
 
     @Override
@@ -65,7 +61,6 @@ public class Notebook extends Product {
     @Override
     public void getProducts() {
         print(null);
-
     }
 
     public void print(ArrayList<Notebook> notebookList) {

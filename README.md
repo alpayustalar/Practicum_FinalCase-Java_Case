@@ -35,4 +35,6 @@ Kullanıcı sistem üzerinden ilgili kategorideki (Notebook, Cep Telefonları vb
 Ürünler listelenirken tablo şeklinde konsol ekranında gösterilmeli (System.out.format() kullanılabilir). <br>
 Kullanıcı ürün ekleyebilmeli ve ürünün grubunu (Cep Telefonu, Notebook vb.) seçebilmeli. <br>
 Kullanıcı ürünleri benzersiz numaralarına göre silebilmeli. <br>
-Kullanıcı ürünlerin benzersiz numaralarına ve markalarına göre filtreleyip listeleyebilmeli. <br>
+Kullanıcı ürünlerin benzersiz numaralarına ve markalarına göre filtreleyip listeleyebilmeli. <br> <br>
+
+[https://app.patika.dev/majin](https://academy.patika.dev/profile)
